@@ -6300,8 +6300,8 @@ button.close {
 .carousel-control-next-icon {
     display: inline-block;
     width: 20px;
-    height: 20px;
-    background: transparent no-repeat center center;
+    height: 50px;
+    background: #000000c9 no-repeat center center;
     background-size: 100% 100%;
 }
 
@@ -9756,7 +9756,7 @@ body {
 
 /* Home Page Style */
 .ww-home-page {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/NBK09153.jpg") no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/ANN06219.jpg") no-repeat center center;
     background-size: cover;
     background-position: 50%;
     height: 100vh;
@@ -9804,7 +9804,7 @@ body {
 
 .ww-home-page:before {
     content: "";
-    background-color: rgba(245, 138, 119, 0.2);
+    /* background-color: rgba(245, 138, 119, 0.2); */
     width: 100%;
     height: 100%;
     height: 100vh;
@@ -9900,7 +9900,7 @@ body {
 .ww-gift-section .ww-gift {
     min-height: 100px;
     width: auto;
-    height: 200px;
+    height: 450px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -10064,3 +10064,30 @@ body {
     left: 0;
     margin: 0px 30px 30px 30px;
 }
+
+#custCarousel .carousel-indicators {
+    position: static;
+    margin-top:20px;
+}
+
+#custCarousel .carousel-indicators > li {
+  width:100px;
+}
+
+#custCarousel .carousel-indicators li img {
+    display: block;
+    opacity: 0.5;
+}
+
+#custCarousel .carousel-indicators li.active img {
+    opacity: 1;
+}
+
+#custCarousel .carousel-indicators li:hover img {
+    opacity: 0.75;
+}
+
+.carousel-item img{
+    width:80%;
+}
+  
